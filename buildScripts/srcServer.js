@@ -1,8 +1,8 @@
-var express = require("express");
-var path = require("path")
-var open = require("open");
-var PORT = 5000;
-var app = express();
+import express from "express";
+import path from "path";
+import open from "open";
+const PORT = 5000;
+const app = express();
 
 //listen to the home route
 app.get("/", function(req, res){
