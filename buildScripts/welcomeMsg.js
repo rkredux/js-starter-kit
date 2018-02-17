@@ -2,3 +2,4 @@
 import chalk from "chalk";
 
 console.log(chalk.green("The server is starting in dev mode"));
+console.log("testing the commit");
